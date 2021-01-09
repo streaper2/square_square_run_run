@@ -1,5 +1,5 @@
 {
-  "name": "ts_ground_proto",
+  "name": "ts_proto",
   "spriteId": {
     "name": "s_ground_proto",
     "path": "sprites/s_ground_proto/s_ground_proto.yy",
@@ -19,7 +19,26 @@
   "out_tilevborder": 2,
   "out_columns": 1,
   "tile_count": 2,
-  "autoTileSets": [],
+  "autoTileSets": [
+    {"tiles":[
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_1","tags":[],"resourceType":"GMAutoTileSet",},
+  ],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
   "tileAnimation": {
