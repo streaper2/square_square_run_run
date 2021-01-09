@@ -1,8 +1,10 @@
 {
   "resources": [
-    {"id":{"name":"obj_player_proto","path":"objects/obj_player_proto/obj_player_proto.yy",},"order":0,},
-    {"id":{"name":"spr_player_proto","path":"sprites/spr_player_proto/spr_player_proto.yy",},"order":0,},
-    {"id":{"name":"player_run","path":"scripts/player_run/player_run.yy",},"order":0,},
+    {"id":{"name":"o_player_proto","path":"objects/o_player_proto/o_player_proto.yy",},"order":0,},
+    {"id":{"name":"rm_player_proto","path":"rooms/rm_player_proto/rm_player_proto.yy",},"order":1,},
+    {"id":{"name":"s_player_proto","path":"sprites/s_player_proto/s_player_proto.yy",},"order":0,},
+    {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"order":1,},
+    {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -24,6 +26,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_player_proto","path":"rooms/rm_player_proto/rm_player_proto.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
