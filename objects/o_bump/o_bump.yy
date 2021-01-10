@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "slime",
-    "path": "sprites/slime/slime.yy",
+    "name": "s_bump",
+    "path": "sprites/s_bump/s_bump.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -19,23 +19,16 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":16.0,"y":0.0,},
-    {"x":16.0,"y":16.0,},
-    {"x":0.0,"y":16.0,},
-  ],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_slime","path":"objects/o_slime/o_slime.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "physicsShapePoints": [],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/enemies.yy",
+    "name": "bonus",
+    "path": "folders/Objects/bonus.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_slime",
+  "name": "o_bump",
   "tags": [],
   "resourceType": "GMObject",
 }

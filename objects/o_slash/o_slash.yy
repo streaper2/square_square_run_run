@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "slime",
-    "path": "sprites/slime/slime.yy",
+    "name": "s_slash",
+    "path": "sprites/s_slash/s_slash.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -19,14 +19,9 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":16.0,"y":0.0,},
-    {"x":16.0,"y":16.0,},
-    {"x":0.0,"y":16.0,},
-  ],
+  "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_slime","path":"objects/o_slime/o_slime.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_slash","path":"objects/o_slash/o_slash.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +30,7 @@
     "path": "folders/Objects/enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_slime",
+  "name": "o_slash",
   "tags": [],
   "resourceType": "GMObject",
 }
