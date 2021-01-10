@@ -16,7 +16,6 @@
     {"id":{"name":"o_colision","path":"objects/o_colision/o_colision.yy",},"order":5,},
     {"id":{"name":"s_colision","path":"sprites/s_colision/s_colision.yy",},"order":0,},
     {"id":{"name":"rm_player_proto","path":"rooms/rm_player_proto/rm_player_proto.yy",},"order":1,},
-    {"id":{"name":"o_test","path":"objects/o_test/o_test.yy",},"order":3,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":2,},
     {"id":{"name":"o_bird_static","path":"objects/o_bird_static/o_bird_static.yy",},"order":0,},
     {"id":{"name":"ts_proto","path":"tilesets/ts_proto/ts_proto.yy",},"order":0,},
@@ -41,10 +40,11 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_enemies_and_object","path":"rooms/rm_enemies_and_object/rm_enemies_and_object.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"rm_player_proto","path":"rooms/rm_player_proto/rm_player_proto.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"rm_enemies_and_object","path":"rooms/rm_enemies_and_object/rm_enemies_and_object.yy",},},
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
