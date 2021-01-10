@@ -40,10 +40,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_enemies_and_object","path":"rooms/rm_enemies_and_object/rm_enemies_and_object.yy",},},
-    {"roomId":{"name":"","path":"",},},
     {"roomId":{"name":"rm_player_proto","path":"rooms/rm_player_proto/rm_player_proto.yy",},},
-    {"roomId":{"name":"","path":"",},},
-    {"roomId":{"name":"rm_enemies_and_object","path":"rooms/rm_enemies_and_object/rm_enemies_and_object.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
   ],
   "Folders": [
