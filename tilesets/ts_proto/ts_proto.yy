@@ -1,5 +1,4 @@
 {
-  "name": "ts_proto",
   "spriteId": {
     "name": "s_ground_proto",
     "path": "sprites/s_ground_proto/s_ground_proto.yy",
@@ -58,6 +57,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ts_proto",
   "tags": [],
   "resourceType": "GMTileSet",
 }
