@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_bump",
-    "path": "sprites/s_bump/s_bump.yy",
+    "name": "",
+    "path": "",
   },
   "solid": false,
   "visible": true,
