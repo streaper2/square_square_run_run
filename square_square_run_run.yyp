@@ -17,6 +17,7 @@
     {"id":{"name":"s_colision","path":"sprites/s_colision/s_colision.yy",},"order":0,},
     {"id":{"name":"rm_player_proto","path":"rooms/rm_player_proto/rm_player_proto.yy",},"order":1,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":2,},
+    {"id":{"name":"s_player_sneak_proto","path":"sprites/s_player_sneak_proto/s_player_sneak_proto.yy",},"order":1,},
     {"id":{"name":"o_bird_static","path":"objects/o_bird_static/o_bird_static.yy",},"order":0,},
     {"id":{"name":"ts_proto","path":"tilesets/ts_proto/ts_proto.yy",},"order":0,},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":0,},
