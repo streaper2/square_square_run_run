@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 15,
-  "bbox_top": 0,
+  "bbox_top": 8,
   "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"05c229db-5fdd-4f9a-8178-254fe4baad44","path":"sprites/s_player_proto/s_player_proto.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"05c229db-5fdd-4f9a-8178-254fe4baad44","path":"sprites/s_player_proto/s_player_proto.yy",},"LayerId":{"name":"99688f47-d732-47a6-84d5-3c6bdcc924fb","path":"sprites/s_player_proto/s_player_proto.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_player_proto","path":"sprites/s_player_proto/s_player_proto.yy",},"resourceVersion":"1.0","name":"05c229db-5fdd-4f9a-8178-254fe4baad44","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"36eca58d-b01d-4b63-9e3a-e5c31ee1114d","path":"sprites/s_player_sneak_proto/s_player_sneak_proto.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"36eca58d-b01d-4b63-9e3a-e5c31ee1114d","path":"sprites/s_player_sneak_proto/s_player_sneak_proto.yy",},"LayerId":{"name":"74c653e3-d3e9-4e29-8181-286cb0a7a5df","path":"sprites/s_player_sneak_proto/s_player_sneak_proto.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_player_sneak_proto","path":"sprites/s_player_sneak_proto/s_player_sneak_proto.yy",},"resourceVersion":"1.0","name":"36eca58d-b01d-4b63-9e3a-e5c31ee1114d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_player_proto","path":"sprites/s_player_proto/s_player_proto.yy",},
+    "spriteId": {"name":"s_player_sneak_proto","path":"sprites/s_player_sneak_proto/s_player_sneak_proto.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4c0d39ac-27f8-4593-bf4a-20195e98e3d3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"05c229db-5fdd-4f9a-8178-254fe4baad44","path":"sprites/s_player_proto/s_player_proto.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ab46a970-fdde-4a1b-a8c7-028b73650d6d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"36eca58d-b01d-4b63-9e3a-e5c31ee1114d","path":"sprites/s_player_sneak_proto/s_player_sneak_proto.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_player_proto","path":"sprites/s_player_proto/s_player_proto.yy",},
+    "parent": {"name":"s_player_sneak_proto","path":"sprites/s_player_sneak_proto/s_player_sneak_proto.yy",},
     "resourceVersion": "1.3",
-    "name": "s_player_proto",
+    "name": "s_player_sneak_proto",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"99688f47-d732-47a6-84d5-3c6bdcc924fb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"74c653e3-d3e9-4e29-8181-286cb0a7a5df","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "player",
     "path": "folders/Sprites/player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_player_proto",
+  "name": "s_player_sneak_proto",
   "tags": [],
   "resourceType": "GMSprite",
 }
